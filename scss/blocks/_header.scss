@@ -1,0 +1,22 @@
+.site-header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__list {
+  display: flex;
+}
+
+.navbar__item {
+  margin-right: 50px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  list-style-type: none;
+  color: #424242;
+
+  &:nth-child(4){
+    margin-right: 0;
+  }
+}
